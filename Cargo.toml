@@ -1,0 +1,8 @@
+[package]
+name = "cli-dapp"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+web3 = "0.18.0"
+tokio = { version = "1.17.0", features = ["full"] }
